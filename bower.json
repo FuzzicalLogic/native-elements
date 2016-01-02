@@ -1,29 +1,32 @@
 {
-  "name": "native-elements",
-  "version": "0.1.0",
-  "description": "Component catalog containing elements designed for replicating native functionality onto web applications.",
-  "keywords": [
-    "web-components",
-    "polymer"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/FuzzicalLogic/native-elements.git"
-  },
-  "dependencies": {
-    "native-developer-tools": "FuzzicalLogic/native-developer-tools#~0.1.0"
-  },
-  "homepage": "https://github.com/FuzzicalLogic/native-developer-tools",
-  "authors": [
-    "Donald Atkinson"
-  ],
-  "license": "http://polymer.github.io/LICENSE.txt",
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
-  ],
-  "main": "index.html"
+	"name": "native-elements",
+	"version": "0.1.0",
+	"description": "Component catalog containing elements designed for replicating native functionality onto web applications.",
+	"keywords": [
+		"web-components",
+		"polymer",
+		"nativeweb"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/FuzzicalLogic/native-elements.git"
+	},
+	"dependencies": {
+		"native-window": "FuzzicalLogic/native-window#~0",
+		"native-title-bar": "FuzzicalLogic/native-title-bar#~0",
+		"native-developer-tools": "FuzzicalLogic/native-developer-tools#~0"
+	},
+	"homepage": "https://github.com/FuzzicalLogic/native-developer-tools",
+	"authors": [
+		"Donald Atkinson"
+	],
+	"license": "http://polymer.github.io/LICENSE.txt",
+	"ignore": [
+		"**/.*",
+		"node_modules",
+		"bower_components",
+		"test",
+		"tests"
+	],
+	"main": "index.html"
 }
